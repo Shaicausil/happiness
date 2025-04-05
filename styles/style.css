@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*barra*/
+
+header{
+    background-color: #F5CB00;
+}
+
+.header-content {
+    max-width: 1200px;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.logo img{
+    height: 30px;
+}
+
+.barra nav ul{
+
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.barra nav ul li{
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.barra nav ul li a{
+    color: black;
+}
+
+.barra nav ul li a:hover{
+    color: gray;
+}
+
+/*parte 1*/
+
+.parte1{
+    height: 1800px;
+}
+
+.containerParte1{
+    height: 700px;
+    display: flex;
+    width: 150vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 300px;
+}
+
+.textPart1{
+    padding: 50px;
+    width: 400px;
+
+}
+
+.textPart1 h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textPart1 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonPart1{
+    background-color: #F5CB00;
+    border: #F5CB00;
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    
+}
+
+
+.mediumParte1{
+    display: flex;
+    background-color: #e4e3e2;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    z-index: 10;
+    align-items: center;
+    gap: 40px;
+}
+
+.mediumtext{
+    width: 25%;
+    padding-top: 50px;
+}
+
+.mediumtext h2{
+    color: #F5CB00;
+    font-size: 35px;
+    padding-bottom: 20PX;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.mediumtext p{
+    padding-bottom: 20px;
+}
+
+.mediumtext a{
+    color: black;
+    font-weight: bold;
+}
+
+.img1{
+    width: 40%;
+}
+
+
+
+.finalPart1{
+    height: 900px;
+    background-color: #F5CB00;
+    padding-top: 200px;
+    display: flex;
+}
+
+
