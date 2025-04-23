@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 
 *{
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -43,6 +46,7 @@ header{
 
 .barra nav ul li a{
     color: black;
+    font-weight: bold;
 }
 
 .barra nav ul li a:hover{
@@ -61,7 +65,7 @@ header{
     width: 150vh;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 300px;
+    padding: 5px 300px;
 }
 
 .textPart1{
@@ -89,6 +93,10 @@ header{
     
 }
 
+.imagen1 img{
+    height: 400px;
+}
+
 
 .mediumParte1{
     display: flex;
@@ -99,7 +107,6 @@ header{
     transform: translate(-50%, -50%);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    border-radius: 10px;
     z-index: 10;
     align-items: center;
     gap: 40px;
@@ -133,10 +140,868 @@ header{
 
 
 .finalPart1{
-    height: 900px;
+    height: 800px;
     background-color: #F5CB00;
-    padding-top: 200px;
+    padding-top: 250px;
     display: flex;
 }
 
+.finalText{
+    width: 400px;
+    padding: 10px 300px;
+}
+
+.finalText h1{
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.finalText p{
+    padding-bottom: 20px;
+}
+
+.finalButton{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: small;
+}
+
+.finalImage{
+    position: absolute;
+    left: 750px;
+    top: 1100px;
+}
+
+/*parte 2*/
+
+.parte2{
+    padding: 10px 200px;
+    height: 750px;
+}
+
+.happiness{
+    display: flex;
+    width: 1300px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.308);
+    background-color: #e4e3e2;
+   
+}
+
+.textH{
+    width: 300px;
+    padding: 40px;
+}
+
+.textH p{
+    padding-bottom: 20px;
+}
+
+.textH h1{
+    color: #F5CB00;
+    font-size: 60px;
+    padding-bottom: 20PX;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textH button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: small;
+}
+
+.imagen{
+    position: absolute;
+    right: 400px;
+}
+
+.imagen img{
+    height: 300px;
+}
+
+/*part3*/
+
+.parte3{
+    background-color: black;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.textPart3 h2{
+    color: #F5CB00;
+    font-size: 35px;
+    padding-bottom: 20PX;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textPart3 p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.buttonpart3{
+    padding-top: 20px;
+}
+
+.buttonpart3 button{
+    background-color :#F5CB00;
+    border: #F5CB00;
+    color: black;
+    height: 40px;
+    width: 150px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/*parte4*/
+
+
+.parte4{
+    height: 800px;
+}
+
+.container4{
+    display: flex;
+    width: 150vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 300px;
+}
+
+.textRight{
+    padding: 50px;
+    width: 400px;
+
+}
+
+.textRight h3{
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textRight p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textRight button{
+    background-color: #F5CB00;
+    border: #F5CB00;
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+/*parte 5*/
+
+.parte5{
+    height: 850px;
+    background-color: #e4e3e2;
+}
+
+.container5{
+    display: flex;
+    width: 150vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 300px;
+}
+
+.textLeft{
+    padding: 50px;
+    width: 400px;
+}
+
+.textLeft h3{
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textLeft P{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textLeft button{
+    background-color: #F5CB00;
+    border: #F5CB00;
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/*parte 6*/
+
+.parte6{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 
+}
+
+.form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 400px;
+    color: white;
+    width: 600px;
+
+}
+
+.nameS{
+    display: flex;
+    gap: 1rem;
+    width: 100px;
+
+}
+
+.izq{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+    
+}
+
+.izq input, textarea{
+    width: 382px;
+}
+
+
+input, textarea{
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+
+.containerForm{
+    padding: 50px;
+}
+
+.textForm h2 {
+    color: #F5CB00;
+    font-size: 35px;
+    padding-bottom: 20PX;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.textForm p{
+    padding-bottom: 20px;
+}
+
+.textForm button{
+    background-color: #F5CB00;
+    border: #F5CB00;
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    font-weight: bold;
+}
+
+/*parte7*/
+
+.parte7{
+    background-color: #F5CB00;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.upPart h2{
+    color: black;
+    font-size: 35px;
+    padding-bottom: 10PX;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.upPart P{
+    padding-bottom: 20px;
+}
+
+.buttonDown{
+    padding-top: 20px;
+}
+
+.buttonDown button{
+    background-color :black;
+    border: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: small;
+    font-weight: bold; 
+}
+
+
+/*parte 8*/
+
+.parte8{
+    background-color: black;
+    height: 300px;
+    padding: 40px;
+
+}
+
+.text{
+    padding-top: 60px;
+    display: flex;
+    color: #F5CB00;
+    width: 300px;
+}
+
+.text ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.textL{
+    width: 50%;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    border-top: 4px solid white;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.textF{
+    color: #F5CB00;
+    font-size: small;
+}
+
+
+@media (max-width:1279px) {
+    /*parte1*/
+
+    .parte1{
+        height: 1500px;
+    }
+
+    .containerParte1{
+        width: 910px;
+        padding: 5px ;
+    }
+
+    .mediumParte1{
+        height: 200px;
+        gap: 90px;
+        width: 700px;
+    }
+
+    .mediumtext{
+        width: 40%;
+        padding-top: 10px;
+    }
+
+    .img1, .img2{
+        width: 100px;
+    }
+
+    .img1 img, .img2 img{
+        height: 100px;
+    }
+
+    .finalPart1{
+        height: 500px;
+        width: 921px;
+        padding-top: 200px ;
+    }
+
+    .finalText{
+        padding: 30px;
+    }
+
+    .finalImage{
+        left: 500px;
+    }
+
+    .finalImage img{
+        width: 400px;
+        height: 300px;
+    }
+
+    /*parte2*/
+
+    .parte2{
+        width: 921px;
+        padding: 35px ;
+        height: 500px;
+        
+    }
+
+    .happiness{
+        width: 850px;
+        height: 500px;
+    }
+
+    .imagen2 img{
+       width: 400px; 
+    }
+
+    .textH{
+        padding: 10px;
+    }
+
+    .imagen{
+        right: 85px;
+
+    }
+
+    .imagen img{
+        height: 200px;
+    }
+
+    /*parte3*/
+
+    .imgpart3{
+        width: 500px;
+    }
+
+    
+    .imgpart3 img{
+        width: 500px;
+    }
+
+    /*parte 4*/
+
+    .parte4{
+        width: 921px;
+        height: 700px;
+    }
+
+    .container4{
+        width: 825px;
+        padding: 50px;
+    }
+
+    .imgLeft{
+        width: 500px;
+    }
+
+    .imgLeft img{
+        height: 500px;
+        width: 500px;
+    }
+
+    .textRight{
+        width: 300px;
+    }
+
+    /*parte 5*/
+
+    .parte5{
+        height: 700px;
+    }
+
+    .container5{
+        width: 900px;
+        padding: 5px;
+    }
+
+    .imgRight{
+        width: 500px;
+    }
+
+    .imgRight img{
+        width: 500px;
+    }
+
+    /*parte 6*/
+
+    .parte6{
+        padding: 50px;
+    }
+
+    .form{
+        width: 250%;
+        padding: 5px;
+    }
+
+
+    /*parte 7*/
+
+    .parte7{
+        height: 500px;
+    }
+
+    .contactMedio{
+        width: 500px;
+    }
+
+    .contactMedio img{
+        width: 500px;
+    }
+
+
+}
+
+@media (max-width:920px) {
+    /*parte 1*/
+
+    .parte1{
+        height: 1400px;
+    }
+
+    .containerParte1{
+        width: auto;
+    }
+
+    .textPart1{
+        padding: 2px;
+    }
+
+    .textPart1 h1{
+        font-size: 50px;
+    }
+
+    .mediumParte1{
+        width: 550px;
+        gap: 60px;
+    }
+
+    .img1, .img2{
+        width: 90px;
+    }
+    .mediumtext h2{
+        padding-bottom: 5px;
+    }
+
+    .finalPart1{
+        width: auto;
+    }
+
+    .finalText{
+        width: 300px;
+    }
+
+    .finalImage{
+        left: 350px;
+    }
+
+    /*parte 2*/
+
+    .parte2{
+        width: auto;
+        height: 400px;
+    }
+
+    .happiness{
+        width: 700px;
+        height: 350px;
+    }
+
+    .imagen2{
+        width: 300px;
+        height: auto;
+        
+    }
+
+    .imagen2 img{
+        width: 300px;
+
+    }
+
+    .imagen img{
+        height: 150px;
+    }
+
+    .textH h1{
+        font-size: 40px;
+    }
+
+    .textH p{
+        font-size: 12px;
+    }
+
+    /*parte 4*/
+
+    .parte4{
+        width: auto;
+        height: 600px;
+    }
+
+    .container4{
+        width: auto;
+        padding: 20px;
+    }
+
+    .textRight{
+        padding: 20px;
+    }
+
+    /*parte 5*/
+
+    .container5{
+        width: auto;
+    }
+    .imgRight{
+        width: 400px;
+    }
+
+    .imgRight img{
+        width: 400px;
+    }
+    /*parte 6*/
+
+
+    .parte6{
+        padding: 30px;
+    }
+    .form{
+        width: 500%;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:768px) {
+    /*parte1*/
+
+    .parte1{
+        height: 2000px;
+    }
+
+    .containerParte1{
+        display: grid; 
+        place-items: center;
+    }
+
+    .imagen1 img{
+        height: 300px;
+    }
+
+    .mediumParte1 {
+        position: static; 
+        transform: none; 
+        left: auto;
+        top: auto;
+        z-index: auto;
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 20px;
+        width: auto;
+        height: 300px;
+      }
+
+      .finalPart1{
+        display: grid; 
+        place-items: center;
+        height: 900px;
+        padding-top: 1px;
+      }
+
+      .finalImage{
+        position: static;
+        left: auto;
+        padding-top: 25px;
+
+      }
+
+      .finalImage img{
+        width: 300px;
+      }
+
+      
+      /*parte 2*/
+
+      .parte2{
+        padding: 1px 10px ;
+        height: 1000px;
+      }
+      
+      .happiness{
+        display: grid; 
+        place-items: center;
+        width: auto;
+        height: 900px;
+      }
+
+      .imagen2{
+        height: 100px;
+      }
+
+      /*parte3*/
+
+      .imgpart3 img{
+        width: 300px;
+      }
+      
+
+      /*parte 4*/
+      .parte4{
+        height: 600px;
+        display: flex; 
+        flex-direction: column;
+        
+      }
+
+      .container4{
+        width: auto;
+        height: 500px;
+      }
+
+      .imgLeft img{
+        width: auto;
+        height: 200px;
+      }
+
+      /*parte 5*/
+
+      .parte5{
+        height: 1000px;
+      }
+
+      .container5{
+        display: flex;
+        flex-direction: column;
+      }
+
+      /*parte 6*/
+      .parte6{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+      }
+
+      .form{
+        width: auto;
+      }
+
+      /*parte 7*/
+
+      .contactMedio img{
+        width: 300px;
+      }
+    }
+
+
+    @media (max-width:480px) {
+        /*barra*/
+
+    .barra nav ul li a {
+            font-size: 10px;
+    }
+
+    .barra nav ul li {
+        width: 60px;
+    }
+    
+    /*parte1*/
+
+    .parte1{
+        height: 2300px;
+    }
+    .containerParte1{
+        justify-content: center;
+    }
+
+    .imagen1 img{
+        height: 200px;
+    }
+
+    .textPart1{
+        width: auto;
+    }
+
+    .mediumParte1{
+        height: 600px;
+        display: grid;
+        place-items: center;
+
+    }
+
+    /*parte4*/
+
+    .parte4{
+        align-items: center;
+        height: 700px;
+    }
+
+    .container4{
+    
+        justify-content: center;
+        display: grid;
+        place-items: center;
+    }
+
+    .imgLeft{
+        width: auto;
+    }
+
+    .imgLeft img{
+        height: 300px;
+    }
+
+    /*part5*/
+
+    .container5{
+        justify-content: center;
+    }
+
+
+    .textLeft{
+        padding: auto;
+        width: auto;
+    }
+
+    .imgRight{
+        width: 200px;
+    }
+
+    .imgRight img{
+        width: auto;
+       height: 200px;
+    }
+
+    /*formulario*/
+
+    .parte6{
+        padding: 1px;
+    }
+    .form{
+        padding: 1px;
+         
+      }
+
+      .nameS input{
+        width: 140px;
+      }
+
+      .izq input, textarea{
+        width: 300px;
+    }
+
+    }
 
